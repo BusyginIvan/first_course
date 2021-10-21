@@ -1,0 +1,139 @@
+frame.title=Интерфейс для работы с коллекцией
+printer.title=Результаты выполнения скрипта
+
+connector.title=Ошибка соединения!
+connector.message=Сервер не отвечает. Попробовать переподключиться?
+
+registrar.title=Авторизация
+registrar.avt=Авторизоваться
+registrar.reg=Зарегистрироваться
+registrar.login=Логин
+registrar.password=Пароль
+registrar.empty.title=Не корректный ввод
+registrar.empty_login=Вы не ввели логин.
+registrar.empty_password=Вы не ввели пароль.
+
+error=Ошибка!
+error.empty=Список товаров пуст.
+error.remove_first=Удалять нечего.
+error.identity=Сервер не признал вашу личность.
+error.connection=Ошибка подключения к базе данных.
+error.foreign_product=Он вам не принадлежит.
+error.passport_exists=Владелец с таким номером паспорта уже существует.
+error.no_exists=Указан несуществующий ID.
+error.clear=Не удалось удалить товары.
+error.remove=Не удалось удалить товар.
+error.add=Не удалось добавить товар.
+error.add_if_max=В списке уже есть товар с большей или равной ценой.
+error.update=Не удалось изменить товар.
+error.unique_owner=Владельцев нет.
+error.min_by_owner=Нет товаров, имеющих владельца.
+
+description.execute_script=выполнить скрипт
+description.help=справка по командам
+description.info=вывести информацию о коллекции
+description.add=добавить новый товар в список
+description.update=заменить товар с указанным номером
+description.remove_by_id=удалить элемент с заданным номером
+description.clear=удалить все свои товары
+description.remove_first=удалить наибольший по цене товар в списке
+description.head=вывести информацию о первом по цене товаре
+description.add_if_max=добавить новый товар в коллекцию, если его цена будет наибольшей
+description.min_by_owner=вывести информацию о товаре, имя владельца которого идёт первым в алфавитном порядке
+description.max_by_coordinates=вывести информацию о товаре с наибольшей суммой модулей координат
+description.print_unique_owner=вывести всех владельцев
+
+info.initialization_date=Дата создания списка товаров
+info.products_number=Текущее количество товаров
+
+execute_script.runtime_error=Скрипт не может быть выполнен
+execute_script.invalid_file=Указанного файла не существует
+execute_script.max_nesting_level=Достигнут максимальный уровень вложенности
+execute_script.no_read_rights=Нет прав на чтение файла
+execute_script.io_exception=Ошибка при чтении файла
+
+execute_script.command_error=Ошибка при выполнении команды
+execute_script.miss_product=Не указан аргумент-товар
+execute_script.miss_file=Не указан аргумент с именем файла
+execute_script.miss_id=Не указан аргумент id
+execute_script.invalid_num=Авргумент id должен быть целым числом больше единицы.
+
+execute_script.commands=Команды, доступные для использования в скрипте
+execute_script.commands_num=Из скрипта прочитано команд
+
+menu_bar.help=Помощь
+menu_bar.help.text=Сами потыкайте везде да разберитесь, как что работает.
+menu_bar.language=Выбор языка
+
+menu_bar.edit=Правка
+menu_bar.edit.clear=Удалить свои товары
+menu_bar.edit.remove_first=Удалить самый дорогой товар
+menu_bar.edit.execute_script=Выполнить скрипт
+menu_bar.edit.add=Создать товар
+menu_bar.edit.add_if_max=Создать самый дорогой товар
+
+menu_bar.info=Информация
+menu_bar.info.info=Иформация о коллекции
+menu_bar.info.print_unique_owner=Все владельцы
+menu_bar.info.head=Наибольший по цене товар
+menu_bar.info.min_by_owner=Товар первого владельца
+menu_bar.info.max_by_coordinates=Товар с наиб. суммой |x| + |y|
+
+FileChooser.openDialogTitleText=Выбор скрипта
+FileChooser.openButtonText=Выбрать
+FileChooser.fileNameLabelText=Имя файла:
+FileChooser.filesOfTypeLabelText=Тип файлов:
+FileChooser.cancelButtonText=Отмена
+FileChooser.lookInLabelText=Искать в:
+FileChooser.acceptAllFileFilterText=Все файлы
+FileChooser.filter.txt=Текстовые файлы (*.txt)
+FileChooser.filter.script=Скрипты (*.script)
+
+OptionPane.okButtonText=Ок
+OptionPane.cancelButtonText=Отмена
+
+InputProduct.title=Инициализация товара
+InputProduct.name=Название товара:
+InputProduct.x=Координата x:
+InputProduct.y=Координата y:
+InputProduct.price=Цена:
+InputProduct.measureLabel=Единица измерения:
+InputProduct.passport=Номер пасп. вл-ца:
+InputProduct.owner.name=Имя владельца:
+InputProduct.owner.height=Рост владельца:
+InputProduct.owner.weight=Вес владельца:
+InputProduct.location.name=Название локации:
+InputProduct.location.x=Координата x:
+InputProduct.location.y=Координата y:
+InputProduct.location.z=Координата z:
+InputProduct.button=Готово
+
+product.login=Логин владельца
+product.id=Номер товара
+product.name=Название
+product.coordinates=Координаты
+product.x=Координата x
+product.y=Координата y
+product.creation_date=Дата создания
+product.price=Цена
+product.unit_of_measure=Единица измерения
+product.passport=Номер пасп. собственника
+
+product.short.login=Владелец
+product.short.id=Номер
+product.short.x=x
+product.short.y=y
+product.short.unit_of_measure=Ед. измерения
+product.short.owner=Собственник
+
+product.owner=Собственник
+owner.passport=номер паспорта
+
+unit_of_measure.kilograms=килограммы
+unit_of_measure.square_meters=кв. метры
+unit_of_measure.liters=литры
+unit_of_measure.grams=граммы
+unit_of_measure.null=не определена
+
+popup_menu.update=Изменить
+popup_menu.remove_by_id=Удалить

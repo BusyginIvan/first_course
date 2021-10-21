@@ -1,0 +1,139 @@
+frame.title=Samlingsgrensesnitt
+printer.title=Resultater for skriptutførelse
+
+connector.title=Tilkoblingsfeil!
+connector.message=Serveren svarer ikke. Prøver du å koble til igjen?
+
+registrar.title=Autorisasjon
+registrar.avt=Pålogging
+registrar.reg=Registrer deg
+registrar.login=Pålogging
+registrar.password=Passord
+registrar.empty.title=Ugyldig inndata
+registrar.empty_login=Du har ikke angitt påloggingen.
+registrar.empty_password=Du skrev ikke inn passord.
+
+error=Feil!
+error.empty=Produktlisten er tom.
+error.remove_first=Det er ingenting å fjerne.
+error.identity=Serveren gjenkjente ikke identiteten din.
+error.connection=Feil ved tilkobling til database.
+error.foreign_product=Det tilhører ikke deg.
+error.passport_exists=En eier med samme passnummer eksisterer allerede.
+error.no_exists=Det ble angitt en ikke-eksisterende ID.
+error.clear=Kunne ikke slette produkter.
+error.remove=Kunne ikke fjerne elementet.
+error.add=Kunne ikke legge til produkt.
+error.add_if_max=Det er allerede en vare i listen med høyere eller lik pris.
+error.update=Kunne ikke oppdatere produktet.
+error.unique_owner=Det er ingen eiere.
+error.min_by_owner=Det er ingen produkter med en eier.
+
+description.execute_script=kjør skript
+description.help=kommandohjelp
+description.info=vis informasjon om samlingen
+description.add=legg til et nytt produkt i listen
+description.update=erstatt varen med det angitte nummeret
+description.remove_by_id=fjern element med gitt nummer
+description.clear=slett alle produktene dine
+description.remove_first=fjern det høyest prisede produktet fra listen
+description.head=vis informasjon om det første produktet til en pris
+description.add_if_max=legg til et nytt produkt i samlingen hvis prisen er den høyeste
+description.min_by_owner=vis informasjon om produktet hvis eiernavn kommer først i alfabetisk rekkefølge
+description.max_by_coordinates=Vis informasjon om produktet med høyest sum av koordinatenheter
+description.print_unique_owner=liste opp alle eiere
+
+info.initialization_date=Dato produktlisten ble opprettet
+info.products_number=Nåværende antall produkter
+
+execute_script.runtime_error=Skriptet kunne ikke kjøres
+execute_script.invalid_file=Den spesifiserte filen eksisterer ikke
+execute_script.max_nesting_level=Maksimalt nestingsnivå nådd
+execute_script.no_read_rights=Ingen tillatelse til å lese filen
+execute_script.io_exception=Feil ved lesing av fil
+
+execute_script.command_error=Feil under utførelse av kommando
+execute_script.miss_product=Ingen produktargumenter spesifisert
+execute_script.miss_file=Ingen filnavnargumenter spesifisert
+execute_script.miss_id=Ingen ID-argumenter spesifisert
+execute_script.invalid_num=ID-argumentet må være et helt tall større enn ett.
+
+execute_script.commands=Kommandoer tilgjengelig for bruk i skript
+execute_script.commands_num=Les kommandoer fra skript
+
+menu_bar.help=Hjelp
+menu_bar.help.text=Poke rundt og se hvordan ting fungerer.
+menu_bar.language=Språkvalg
+
+menu_bar.edit=Rediger
+menu_bar.edit.clear=Fjern elementene mine
+menu_bar.edit.remove_first=Fjern det dyreste produktet
+menu_bar.edit.execute_script=Utfør skript
+menu_bar.edit.add=Opprett produkt
+menu_bar.edit.add_if_max=Opprett dyreste produkt
+
+menu_bar.info=Informasjon
+menu_bar.info.info=Informasjon om samling
+menu_bar.info.print_unique_owner=Alle eiere
+menu_bar.info.head=Høyeste prisvare
+menu_bar.info.min_by_owner=Første eierelement
+menu_bar.info.max_by_coordinates=Produkt med høyest total |x| + |y|
+
+FileChooser.openDialogTitleText=Velg skript
+FileChooser.openButtonText=Velg
+FileChooser.fileNameLabelText=Filnavn:
+FileChooser.filesOfTypeLabelText=Filtype:
+FileChooser.cancelButtonText=Avbryt
+FileChooser.lookInLabelText=Søk i:
+FileChooser.acceptAllFileFilterText=Alle filer
+FileChooser.filter.txt=Tekstfiler (*.txt)
+FileChooser.filter.script=Skript (*.script)
+
+OptionPane.okButtonText=Ok
+OptionPane.cancelButtonText=Avbryt
+
+InputProduct.title=Initialiserer produktet
+InputProduct.name=Produktnavn:
+InputProduct.x=x koordinat:
+InputProduct.y=y-koordinat:
+InputProduct.price=Pris:
+InputProduct.measureLabel=Måleenhet:
+InputProduct.passport=Eierens passnummer:
+InputProduct.owner.name=Eiernavn:
+InputProduct.owner.height=Eierens høyde:
+InputProduct.owner.weight=Eiervekt:
+InputProduct.location.name=Stedsnavn:
+InputProduct.location.x=x koordinat:
+InputProduct.location.y=y-koordinat:
+InputProduct.location.z=z koordinat:
+InputProduct.button=Ferdig
+
+product.login=Eierpålogging
+product.id=Produktnummer
+product.name=Navn
+product.coordinates=Koordinater
+product.x=Koordinere x
+product.y=y-koordinat
+product.creation_date=Opprettelsesdato
+product.price=Pris
+product.unit_of_measure=Måleenhet
+product.passport=Eierpassnummer
+
+product.short.login=Eier
+product.short.id=Antall
+product.short.x=x
+product.short.y=y
+product.short.unit_of_measure=Måleenhet
+product.short.owner=Eier
+
+product.owner=Eier
+eier. pass=passnummer
+
+unit_of_measure.kilograms=kilogram
+unit_of_measure.square_meters=kvadratmeter
+unit_of_measure.liters=liter
+unit_of_measure.grams=gram
+unit_of_measure.null=ikke definert
+
+popup_menu.update=Endre
+popup_menu.remove_by_id=Fjern

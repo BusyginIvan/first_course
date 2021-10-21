@@ -1,0 +1,139 @@
+frame.title=Ndërfaqja e koleksionit
+printer.title=Rezultatet e ekzekutimit të skriptit
+
+connector.title=Gabim në Lidhje!
+connector.message=Serveri nuk përgjigjet. Mundohuni të rilidheni?
+
+registrar.title=Autorizimi
+registrar.avt=Identifikohu
+registrar.reg=Regjistrohuni
+registrar.login=Identifikohu
+registrar.password=Fjalëkalimi
+registrar.empty.titull=Input i pavlefshëm
+registrar.empty_login=Ju nuk keni futur hyrjen tuaj.
+registrar.empty_password=Ju nuk keni futur një fjalëkalim.
+
+error=Gabim!
+error.empty=Lista e produkteve është bosh.
+error.remove_first=Nuk ka asgjë për të hequr.
+error.identity=Serveri nuk e njohu identitetin tuaj.
+error.connection=Gabim në lidhjen me bazën e të dhënave.
+error.foreign_product=Nuk ju përket.
+error.passport_exists=Një pronar me të njëjtin numër të pasaportës tashmë ekziston.
+error.no_exists=IDshtë specifikuar një ID jo-ekzistuese.
+error.clear=Fshirja e produkteve dështoi.
+error.remove=Dështoi në heqjen e artikullit.
+error.add=Dështoi në shtimin e produktit.
+error.add_if_max=Ka tashmë një artikull në listë me një çmim më të lartë ose të barabartë.
+error.update=Dështoi në azhurnimin e produktit.
+error.unique_owner=Nuk ka pronarë.
+error.min_by_owner=Nuk ka produkte me një pronar.
+
+description.execute_script=ekzekutoj skriptin
+description.help=ndihmë për komandën
+description.info=shfaq informacionin për koleksionin
+description.add=shtoni një produkt të ri në listë
+description.update=zëvendësoni artikullin me numrin e specifikuar
+description.remove_by_id=hiq artikullin me numrin e dhënë
+description.clear=fshi të gjitha produktet e tua
+description.remove_first=hiq produktin me çmimin më të lartë nga lista
+description.head=shfaq informacionin në lidhje me produktin e parë me një çmim
+description.add_if_max=shtoni një produkt të ri në koleksion nëse çmimi i tij është më i larti
+description.min_by_owner=shfaq informacionin në lidhje me produktin emri i pronarit të të cilit vjen i pari me rend alfabetik
+description.max_by_coordinates=Shfaq informacionin në lidhje me produktin me shumën më të lartë të njësive koordinuese
+description.print_unique_owner=rendit të gjithë pronarët
+
+info.initialization_date=Data e krijimit të listës së produkteve
+info.products_number=Numri aktual i produkteve
+
+execute_script.runtime_error=Skripti nuk mund të ekzekutohej
+execute_script.invalid_file=Skedari i specifikuar nuk ekziston
+execute_script.max_nesting_level=Arritet niveli maksimal i folezimit
+execute_script.no_read_rights=Nuk ka leje për të lexuar skedarin
+execute_script.io_exception=Gabim gjatë leximit të skedarit
+
+execute_script.command_error=Gabim gjatë ekzekutimit të komandës
+execute_script.miss_product=Asnjë argument i produktit i specifikuar
+execute_script.miss_file=Asnjë argument i emrit të skedarit nuk është specifikuar
+execute_script.miss_id=Nuk përcaktohet asnjë argument id
+execute_script.invalid_num=Argumenti id duhet të jetë një numër i plotë më i madh se një.
+
+execute_script.commands=Komandat e disponueshme për t'u përdorur në skript
+execute_script.commands_num=Lexoni komandat nga skenari
+
+menu_bar.help=Ndihma
+menu_bar.help.text=Vidhni rrotull dhe shikoni se si funksionojnë gjërat.
+menu_bar.language=Përzgjedhja e gjuhës
+
+menu_bar.edit=Ndrysho
+menu_bar.edit.clear=Hiq artikujt e mi
+menu_bar.edit.remove_first=Hiq produktin më të shtrenjtë
+menu_bar.edit.execute_script=Ekzekutoni Skriptin
+menu_bar.edit.add=Krijo Produktin
+menu_bar.edit.add_if_max=Krijoni produktin më të shtrenjtë
+
+menu_bar.info=Informacion
+menu_bar.info.info=Informacioni i koleksionit
+menu_bar.info.print_unique_owner=Të gjithë pronarët
+menu_bar.info.head=Artikulli me Çmimin më të Lartë
+menu_bar.info.min_by_owner=Artikulli i parë i pronarit
+menu_bar.info.max_by_coordinates=Produkti me totalin më të lartë |x| + |y|
+
+FileChooser.openDialogTitleText=Zgjidhni Skriptin
+FileChooser.openButtonText=Zgjidhni
+FileChooser.fileNameLabelText=Emri i Skedarit:
+FileChooser.filesOfTypeLabelText=Lloji i skedarit:
+FileChooser.cancelButtonText=Anulo
+FileChooser.lookInLabelText=Kërkoni në:
+FileChooser.acceptAllFileFilterText=Të gjithë skedarët
+FileChooser.filter.txt=Skedarët e Tekstit (*.txt)
+FileChooser.filter.script=Skriptet (*.script)
+
+OptionPane.okButtonText=Në rregull
+OptionPane.cancelButtonText=Anulo
+
+InputProduct.title=Fillimi i Produktit
+InputProduct.name=Emri i Produktit:
+InputProduct.x=x koordinata:
+InputProduct.y=koordinata y:
+InputProduct.price=Çmimi:
+InputProduct.measureLabel=Njësia e Matjes:
+InputProduct.passport=Numri i Pasaportës së Pronarit:
+InputProduct.owner.name=Emri i pronarit:
+InputProduct.owner.height=Lartësia e pronarit:
+InputProduct.owner.weight=Pesha e pronarit:
+InputProduct.location.name=Emri i vendndodhjes:
+InputProduct.location.x=x koordinata:
+InputProduct.location.y=y-koordinata:
+InputProduct.location.z=z koordinata:
+InputProduct.button=Bërë
+
+product.login=Identifikimi i pronarit
+product.id=Numri i produktit
+product.name=Emri
+product.coordinates=Koordinatat
+product.x=Koordinata x
+product.y=koordinata y
+product.creation_date=Data e krijimit
+product.price=Çmimi
+product.unit_of_measure=Njësia e masës
+product.passport=Numri i Pasaportës së Pronarit
+
+product.short.login=Pronari
+product.short.id=Numri
+product.short.x=x
+product.short.y=y
+product.short.unit_of_measure=Njësia e masës
+product.short.owner=Pronari
+
+product.owner=Pronari
+owner.passport=numri i pasaportës
+
+unit_of_measure.kilograms=kilogramë
+unit_of_measure.square_meters=metra katrorë
+unit_of_measure.liters=litra
+unit_of_measure.grams=gram
+unit_of_measure.null=nuk është përcaktuar
+
+popup_menu.update=Ndrysho
+popup_menu.remove_by_id=Hiq

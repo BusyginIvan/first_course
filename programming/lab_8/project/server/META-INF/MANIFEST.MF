@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: root.Main
+Class-Path: postgresql-42.2.20.jar library.jar
+
