@@ -11,14 +11,15 @@
 ## Немного скриншотов
 
 ### Выбор языка при запуске приложения
-![Скриншот не найден](/screenshots/Выбор языка при запуске приложения.png)
+![Image not found](/programming/lab_8/screenshots/img1.png)
 
 ### Авторизация
-![Скриншот не найден](/screenshots/Авторизация.png)
+![Image not found](/programming/lab_8/screenshots/img2.png)
 
 ### Высплывающие подсказки
-![Скриншот не найден](/screenshots/Высплывающие подсказки.png)
+![Image not found](/programming/lab_8/screenshots/img3.png)
 
 ### Некоторые пункты меню
-![Скриншот не найден](/screenshots/Пункт меню Выбор языка.png)
-![Скриншот не найден](/screenshots/Пункт меню Edit.png)
+![Image not found](/programming/lab_8/screenshots/img4.png)
+
+![Image not found](/programming/lab_8/screenshots/img5.png)
